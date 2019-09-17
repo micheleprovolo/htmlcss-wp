@@ -1,0 +1,117 @@
+/* regole generali di pagina */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgrey; /* da debuggare */
+  /* background-image: url(); */
+  background-size: cover;
+}
+
+/* contenitore globale */
+.globale {
+  /* background-color: black; */
+  margin: auto;
+  width: 70vw;
+  height: 100vh;
+}
+
+/* contenitore dell'header e navbar */
+.sezione {
+  background-color: grey;
+  width: 100%;
+  height: 30%;
+}
+
+/* header */
+.intestaz {
+  background-image: url(../img/alberi.jpg);
+  background-size: cover;
+  /* width: 100%; */
+  height: 80%;
+  border: 10px solid white;
+}
+
+/* blocco menù */
+.navbar {
+  background-color: red;
+  width: 100%;
+  height: 20%;
+}
+
+/* corpo della pagina */
+.corpo-pagina {
+  /* background-color: white; */
+  width: 100%;
+  height: 60%;
+}
+
+.blocco-float {
+  /* width: 100%; */
+  height: 100%;
+  margin-top: 3%;
+}
+
+.blocco-float:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+/* colonna sinistra */
+.sinistra {
+  background-color: blue;
+  width: 20%;
+  height: 50%;
+  float: left;
+}
+
+/* colonna centrale */
+.centrale {
+  background-color: orange;
+  width: 50%;
+  height: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  float: left;
+}
+
+/* elemento interno alla colonna destra */
+.elemento {
+  background-color: grey;
+  width: 100%;
+  height: 25%;
+  margin-bottom: 5%;
+}
+
+/* colonna destra */
+.destra {
+  /* background-color: pink; */
+  width: 20%;
+  height: 70%;
+  float: left;
+}
+
+/* parte finale */
+.chiusura {
+  /* background-color: lightgrey; */
+  width: 100%;
+  height: 10%;
+}
+
+.social {
+  background-color: purple;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 2%;
+}
+
+.footer {
+  background-color: lightblue;
+  width: 100%;
+  height: 50%;
+}
