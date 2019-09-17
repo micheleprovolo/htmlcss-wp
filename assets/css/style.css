@@ -53,7 +53,7 @@ body {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -90%);
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
 
 /* blocco menù */
@@ -92,12 +92,17 @@ body {
 
 /* colonna centrale */
 .centrale {
-  background-color: orange;
+  background-color: white;
   width: 50%;
-  height: 30%;
   margin-left: 5%;
   margin-right: 5%;
   float: left;
+}
+
+.titolo-testo {
+  text-align: left;
+  font-family: 'Roboto';
+  padding: 4%;
 }
 
 /* elemento interno alla colonna destra */
